@@ -19,7 +19,6 @@ export const Header = styled.div`
   background: var(--primary);
   display: flex;
   align-items: center;
-  text-align: center;
   padding: 8px 0 9px 13px;
   border-bottom: 1px solid var(--outline);
 
@@ -45,7 +44,7 @@ export const BackIcon = styled(ArrowLeft)`
 
 export const ProfileInfo = styled.div`
   margin-left: 17px;
-  display: block;
+  display: flex;
   flex-direction: column;
 
   > strong {

@@ -11,6 +11,8 @@ import {
   EditButton
 } from './styles';
 
+import Feed from '../Feed'
+
 const ProfilePage: React.FC = () => {
   return (
     <Container>
@@ -46,6 +48,8 @@ const ProfilePage: React.FC = () => {
             <strong>641 </strong> seguidores
           </span>
         </Followage>
+
+        <Feed />
       </ProfileData>
     </Container>
   )

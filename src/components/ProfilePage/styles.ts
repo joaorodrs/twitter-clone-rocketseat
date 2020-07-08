@@ -107,7 +107,8 @@ export const Followage = styled.div`
 
     & + span {
       font-size: 15px;
-      color: var(--gray)
+      color: var(--gray);
+      margin-left: 20px;
     }
   }
 `
